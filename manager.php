@@ -38,7 +38,7 @@ function deleteTodoManager($todoId){
 }
 
 function getTodoManager($todoId){
-    $get_todo = "SELECT * FROM `todos` WHERE id = '$todoId';";
+    $get_todo = "SELECT id, todo, done FROM `todos` WHERE id = '$todoId';";
     $sqlRequest = makeSqlRequest($get_todo, true, true);
     return $sqlRequest;
 }
