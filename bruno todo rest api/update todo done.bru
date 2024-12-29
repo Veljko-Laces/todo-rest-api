@@ -1,0 +1,17 @@
+meta {
+  name: update todo done
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost/to-do-list-rest-api/11
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "done": true
+  }
+}

@@ -1,0 +1,21 @@
+meta {
+  name: add todo
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost/to-do-list-rest-api/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "todo": "Un nouveau todo"
+  }
+}
+
+body:multipart-form {
+  todo: manger dazdazd
+}
