@@ -12,6 +12,10 @@ Une API REST pour gérer une liste de tâches. Cette API permet de récupérer, 
     ```bash
     git clone https://github.com/Veljko-Laces/todo-rest-api.git
     ```
+3. **Mettre le dossier "todo-rest-api" dans "htdocs"** :
+    - Dans le paneau de contrôle de XAMPP, vous retrouverez un bouton "Explorer", cliquez desssus.
+    - Rentrez dans le dossier htdocs.
+    - Mettez le projet `todo-rest-api` dans htdocs.
 
 ## Ressources
 Todo REST API est livré avec un ensemble d'une ressource commune :
@@ -31,7 +35,7 @@ Les méthodes HTTP **GET, POST, PUT** et **DELETE** sont prises en charge. Vous 
 
 *DELETE* `/to-do-list-rest-api/1`
 
-## Bruno
+## Tester mon API
 - Téléchargez et installez [Bruno](https://www.usebruno.com/downloads).
 - Cliquez sur `Open Collection`.
 - Séléctionner le dossier `bruno todo rest api`.
